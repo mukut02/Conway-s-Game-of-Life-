@@ -11,3 +11,7 @@ At each step in time, the following transitions occur:
 
 In this implementation 
 1st matrix generated randomly with probality in that live_cell probability is 1/8 
+
+TO RUN:
+g++ -std=c++17 life.cpp -o life `sdl2-config --cflags --libs` -lSDL2_tt
+./life
